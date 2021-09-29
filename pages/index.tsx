@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { Viewer } from "../components/viewer";
 import styles from "../styles/Home.module.css";
+import { FPSStats } from "fps-react";
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
         <div className={styles.grid}>
           <Viewer />
         </div>
+        <FPSStats />
       </main>
 
       <footer className={styles.footer}></footer>

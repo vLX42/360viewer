@@ -8,6 +8,7 @@ export const StyledImageOverlay = styled.div`
   position: absolute;
   display: flex;
   flex-direction: column;
+  touch-action: none;
   h1 {
     display: flex;
     align-items: center;
